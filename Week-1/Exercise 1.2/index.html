@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="menubar-and-currentplaylist">
+      <div class="menubar">
+        <ul>
+          <li><i class="fa-solid fa-bars"></i></li>
+          <li><i class="fa-solid fa-house"></i></li>
+          <li><i class="fa-solid fa-magnifying-glass"></i></li>
+          <li><i class="fa-solid fa-volume-high"></i></li>
+          <li><i class="fa-solid fa-user"></i></li>
+          <li><i class="fa-brands fa-spotify"></i></li>
+          <li><i class="fa-solid fa-gear"></i></li>
+          <li><i class="fa-brands fa-soundcloud"></i></li>
+        </ul>
+      </div>
+      <div class="current-playlist">
+        <div class="playlist-header" style="display: flex">
+          <div class="thumbnail">
+            <img
+              class="top-image"
+              src="https://vif1g.csb.app/src/assets/cattyboard.jpg"
+              alt="Music-System"
+            />
+          </div>
+          <div>
+            <div>
+              <h2>CattyBoard Top 100 Single Charts (11.06.36)</h2>
+              <div class="artist-and-playlist-name">
+                <h3>Unknown Artist</h3>
+                <br />
+                <h3>2016.Charts. 100songs</h3>
+              </div>
+            </div>
+            <nav>
+              <div><i class="las la-play mini"></i> Play all</div>
+              <div><i class="las la-plus mini"></i> Add to</div>
+              <div><i class="las la-ellipsis-h mini"></i> More</div>
+            </nav>
+          </div>
+        </div>
+        <div class="songs">
+          <table>
+            <tr>
+              <td>1. One Dance</td>
+              <td>Cake feat CatKid & Cyla</td>
+              <td>2:54</td>
+              <td><button>CATTY CLOUD SYNC</button></td>
+            </tr>
+            <tr>
+              <td>2. Panda</td>
+              <td>Cattee</td>
+              <td>4:06</td>
+              <td><button>CATTY CLOUD SYNC</button></td>
+            </tr>
+            <tr>
+              <td>3. Can't Stop the Feeling!</td>
+              <td>Catin Cimberlake</td>
+              <td>3:56</td>
+              <td><button>CATTY CLOUD SYNC</button></td>
+            </tr>
+
+            <tr>
+              <td>4. Work From Home</td>
+              <td>Cat Harmony feat Colla</td>
+              <td>3:34</td>
+              <td><button>CATTY CLOUD SYNC</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="current-song">
+      <div class="current-song-thumbnail">
+        <img
+          class="bottom-img"
+          src="https://vif1g.csb.app/src/assets/cattyboard.jpg"
+          style="width: 60px"
+        />
+      </div>
+      <div class="name-and-artist">
+        <h5>If It Ain't Love</h5>
+        <h5>Catson Derulo</h5>
+      </div>
+      <div class="buttons">
+        <nav class="four">
+          <i class="las"> </i>
+          <i class="las la-step-backward"> </i>
+          <i class="las la-pause"> </i>
+          <i class="las la-step-forward"> </i>
+          <i class="las la-undo-alt"> </i>
+          <i class="las la-random"> </i>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
