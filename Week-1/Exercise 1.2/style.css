@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  max-width: 100%;
+  overflow: hidden;
+}
+.menubar-and-currentplaylist {
+  display: flex;
+}
+.menubar-and-currentplaylist ul {
+  margin: 0;
+  padding: 0;
+}
+.menubar-and-currentplaylist li {
+  list-style: none;
+  padding: 24px 5px;
+}
+.menubar-and-currentplaylist ul li i {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+.menubar {
+  background-color: rgb(245, 240, 240);
+  display: inline-block;
+}
+.current-playlist {
+  flex: 1;
+  color: white;
+  display: inline-block;
+  width: auto;
+}
+.playlist-header {
+  background-color: rgb(85, 80, 80);
+}
+.playlist-header nav {
+  margin-top: 100px;
+  font-size: 12px;
+  display: flex;
+  gap: 12px;
+}
+
+.top-image {
+  padding: 30px 30px;
+  width: 180px;
+}
+.artist-and-playlist-name {
+  line-height: 0px;
+  font-size: 10px;
+}
+.mini {
+  padding: 5px;
+  font-size: 10px;
+  text-decoration: none;
+}
+table {
+  margin: 12px;
+  width: 100%;
+  color: black;
+}
+td {
+  padding: 5px 10px;
+}
+.songs tr:nth-child(even) {
+  background-color: rgb(242, 239, 239);
+}
+
+.buttons {
+  display: inline-block;
+}
+.thumbnail {
+  display: flex;
+}
+.current-song {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #43689b;
+  color: white;
+  padding: 8px;
+}
+.current-song p {
+  margin: 0;
+  padding: 0;
+}
+.current-song .name-and-artist {
+  flex: 1;
+}
+
+.meme {
+  padding: 20px 60px;
+}
+
+td {
+  font-weight: 500;
+  font-size: 14px;
+}
+td button {
+  font-weight: 600;
+  border: 2px solid black;
+  color: blue;
+}
+.buttons nav {
+  display: flex;
+  gap: 120px;
+}
+
+.name-and-artist h5 {
+  margin: 0;
+  padding: 2px;
+}
