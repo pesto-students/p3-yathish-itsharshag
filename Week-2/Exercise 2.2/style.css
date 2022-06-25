@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.colored-box{
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease-out;
+}
+
+#red-box{
+  background: red;
+  transform-origin: top left;
+}
+#yellow-box{
+  background: yellow;
+  transform-origin: top right;
+}
+#blue-box{
+  background: blue;
+  transform-origin: bottom left;
+}
+#green-box{
+  background: green;
+  transform-origin: bottom right;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  margin: auto;
+  margin-top: 80px;
+
+  width: 320px;
+  height: 320px;
+}
+.grid:hover #red-box, .grid:hover #green-box{
+  transform: rotate(90deg);
+}
+.grid:hover #yellow-box, .grid:hover #blue-box{
+  transform: rotate(-90deg);
+}
