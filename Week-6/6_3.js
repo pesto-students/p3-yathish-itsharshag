@@ -1,4 +1,6 @@
-// https://leetcode.com/problems/sort-colors/
+// Question: https://leetcode.com/problems/sort-colors/
+// Time complexity: O(n)
+// Space complexity: O(n)
 
 function sort012s(arr) {
   let map = new Map();

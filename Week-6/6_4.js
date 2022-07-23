@@ -1,4 +1,6 @@
-// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+// Q:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+// Time complexity: O(n)
+// Space complexity: O(1)
 
 var maxProfit = function (prices) {
   let buyPrice = Infinity;

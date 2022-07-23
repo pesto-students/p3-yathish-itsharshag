@@ -1,4 +1,6 @@
-// https://www.interviewbit.com/problems/pair-with-given-difference/
+// Question: https://www.interviewbit.com/problems/pair-with-given-difference/
+// Time complexity: O(n)
+// Space complexity: O(n)
 
 { 
  //param A : array of integers

@@ -1,4 +1,6 @@
-// https://leetcode.com/problems/spiral-matrix/
+// Question: https://leetcode.com/problems/spiral-matrix/
+// Time complexity: O(n)
+// Space complexity: O(1)
 
 var spiralOrder = function (matrix) {
   const m = matrix.length;
