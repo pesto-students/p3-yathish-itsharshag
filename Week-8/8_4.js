@@ -1,6 +1,4 @@
 // Question: https://leetcode.com/problems/find-if-path-exists-in-graph/
-// Time complexity: O(vertices + edges)
-// Space complexity: O(vertices + edges)
 
 const getAdjList = (edges) => {
   let adjList = new Map();
