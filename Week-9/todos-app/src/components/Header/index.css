@@ -1,0 +1,9 @@
+.app-header .logo {
+  width: 8rem;
+}
+.app-header .heading {
+  gap: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
