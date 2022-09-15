@@ -6,17 +6,19 @@ import Todo from "./components/Todo";
 
 import "./App.css";
 
+const defaultTodos = [
+  {
+    text: "Buy groceries",
+    isCompleted: true,
+  },
+  {
+    text: "Buy movie tickets",
+    isCompleted: false,
+  },
+];
+
 function App() {
-  const [todos, setTodos] = useState([
-    {
-      text: "Buy groceries",
-      isCompleted: true,
-    },
-    {
-      text: "Buy movie tickets",
-      isCompleted: false,
-    },
-  ]);
+  const [todos, setTodos] = useState(defaultTodos);
 
   return (
     <div className="App">
