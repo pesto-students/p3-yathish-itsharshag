@@ -26,7 +26,7 @@ export default function Todo({ index, text, isCompleted, setTodos }) {
         checked={isCompleted}
         onChange={checkboxClickHandler}
       />
-      <p>{text}</p>
+      <p data-is-completed={isCompleted}>{text}</p>
       <button onClick={deleteBtnHandler}>{"x"}</button>
     </div>
   );

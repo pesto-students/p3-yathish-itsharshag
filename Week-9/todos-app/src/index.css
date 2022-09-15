@@ -36,6 +36,9 @@ code {
   margin: 0;
   flex: 1;
 }
+.todo p[data-is-completed="true"] {
+  text-decoration: line-through;
+}
 
 form {
   display: flex;
