@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import Header from "./components/Header";
 import TodoForm from "./components/TodoForm";
 import Todo from "./components/Todo";
 
@@ -19,24 +20,17 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="app-heading">
-          <img src={"/react-logo.png"} className="app-logo" alt="logo" />
-          <h1>Todos</h1>
-        </div>
-      </header>
-      <div>
-        <TodoForm setTodos={setTodos} />
-        {todos.map(({ text, isCompleted }, index) => (
-          <Todo
-            index={index}
-            text={text}
-            isCompleted={isCompleted}
-            setTodos={setTodos}
-            key={index}
-          />
-        ))}
-      </div>
+      <Header />
+      <TodoForm setTodos={setTodos} />
+      {todos.map(({ text, isCompleted }, index) => (
+        <Todo
+          index={index}
+          text={text}
+          isCompleted={isCompleted}
+          setTodos={setTodos}
+          key={index}
+        />
+      ))}
     </div>
   );
 }

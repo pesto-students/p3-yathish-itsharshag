@@ -1,0 +1,31 @@
+.todo {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+.todo p {
+  margin: 0;
+  flex: 1;
+}
+.todo p[data-is-completed="true"] {
+  text-decoration: line-through;
+}
+
+.animate {
+  animation-duration: 0.5s;
+  animation-delay: 0.2s;
+  animation-name: fade;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-fill-mode: backwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

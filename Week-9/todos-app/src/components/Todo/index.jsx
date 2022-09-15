@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 
 export default function Todo({ index, text, isCompleted, setTodos }) {
   const updateTodo = (index, key, value) => {
